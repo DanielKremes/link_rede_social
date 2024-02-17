@@ -1,14 +1,14 @@
-## [Veja o site do projeto clicando aqui, ou clique na imagem](https://projeto-receita-hazel.vercel.app/)
+## [Veja o site do projeto clicando aqui, ou clique na imagem](https://link-rede-social.vercel.app/)
 
 ## Video do projeto
 https://github.com/DanielKremes/link_rede_social/assets/145404663/5e96f2d6-68ad-4d89-84e3-c701e2e25d1e
 
 
 ## Versão mobile:
-## [![](https://github.com/DanielKremes/link_rede_social/assets/145404663/480c3293-d698-4631-b0a3-221156b99835)](https://projeto-receita-hazel.vercel.app/)
+## [![](https://github.com/DanielKremes/link_rede_social/assets/145404663/480c3293-d698-4631-b0a3-221156b99835)](https://link-rede-social.vercel.app/)
 
 ## Versão desktop
-## [![](https://github.com/DanielKremes/link_rede_social/assets/145404663/4808712d-829a-49da-8b40-fc19419152f4)](https://projeto-receita-hazel.vercel.app/)
+## [![](https://github.com/DanielKremes/link_rede_social/assets/145404663/4808712d-829a-49da-8b40-fc19419152f4)](https://link-rede-social.vercel.app/)
 
 ## Conhecimentos usados
 - MANIPULAÇÃO DE DOM(Document Object Model).
