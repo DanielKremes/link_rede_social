@@ -1,0 +1,94 @@
+:root {
+  --color-0: #fff;
+  --color-2: #1e131e;
+  --color-3: #2f90ff;
+  --color-4: #20731d;
+  --color-5: #222222;
+}
+
+@media screen and (max-width: 768px) {
+
+
+  html,
+  body , .container{
+    height: 100vh;
+  }
+  
+
+  .container {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-2);
+    margin: 1rem 1rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem auto;
+    width: 90%;
+  }
+
+  .container_div {
+    text-align: center;
+  }
+  
+  .container_div img {
+    border-radius: 50%;
+    width: auto;
+   }
+
+  .container > h1,
+  h2,
+  p {
+    color: var(--color-0);
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+  }
+
+  .card_links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    height: auto;
+  }
+
+  .card_links_div {
+    width: 100%;
+    background-color: var(--color-3);
+    text-align: center;
+    height: auto;
+  }
+
+  .card_links div a {
+    text-decoration: none;
+    color: var(--color-0);
+    font-weight: bold;
+    padding: 1rem;
+    text-transform: uppercase;
+  }
+
+  .light_theme {
+    background-color: var(--color-4);
+  }
+
+  /* class toggle button */
+  .light_theme {
+    background-color: var(--color-5);
+    opacity: 0.9;
+  }
+
+  .dark {
+    background-color: var(--color-1);
+  }
+}
+
+
+@media (max-width: 800px) and (orientation: landscape) {
+  html,
+  body,.container{
+    height: auto;
+  }
+}

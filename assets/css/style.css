@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+:root {
+  --font-page: "Inter", sans-serif;
+  --color-0: #fff;
+  --color-1: #000;
+  --color-2: #3f4060;
+  --color-3: #1e131e;
+  --color-4: #93d864;
+  /* --color-5: #3d8989; */
+  --color-6: #20731d;
+  --color-7: #209543;
+  --color-8: #2b315e;
+  --color-9: #222222;
+  --color-10: #1e4b70;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+.container {
+  height: 100dvh;
+}
+
+
+body {
+  color: var(--color-0);
+  background-color: var(--color-1);
+  font-family: var(--font-page);
+}
+
+.light {
+  background-color: var(--color-0);
+  color: var(--color-1);
+}
+
+.dark {
+  background-color: var(--color-0);
+  color: var(--color-1);
+}
+
+.header h1:hover {
+  color: var(--color-2);
+}
+
+.header>button {
+  padding: 1rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+  border-radius: 1rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 1rem 1rem;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem auto;
+  width: 50%;
+  background-color: var(--color-2);
+}
+
+.container_div {
+  text-align: center;
+}
+
+.container_div img {
+  border-radius: 50%;
+  width: auto;
+ }
+
+.container>h1,
+h2,
+p {
+  color: var(--color-0);
+}
+
+.card {
+  width: 90%;
+}
+
+.card_links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* links style type button */
+.card_links div {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-6);
+}
+
+.card_links_div:hover {
+  background-color: var(--color-1);
+}
+
+.card_links div a {
+  text-decoration: none;
+  color: var(--color-0);
+  font-weight: bold;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+.card_links div a:hover {
+  color: var(--color-4);
+}
+
+header,
+footer {
+  padding: 20px;
+  color: var(--color-0);
+  background-color: var(--color-4);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer h2 {
+  color: var(--color-1);
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: var(--color-10);
+}
+
+/* class toggle button */
+.light_theme {
+  background-color: var(--color-5);
+  opacity: 0.9;
+}
+
+.dark {
+  background-color: var(--color-8);
+}
